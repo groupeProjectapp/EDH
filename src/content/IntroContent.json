@@ -1,12 +1,12 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "title": "Ethical Hacking Days 2024",
+  "text": "Join Morocco's first and biggest cybersecurity event, where experts, professionals, and students come together to shape the future of digital security. Participate in engaging workshops, exciting competitions like Capture The Flag, and insightful talks by industry leaders.",
   "button": [
     {
-      "title": "Explore"
+      "title": "Explore the Event"
     },
     {
-      "title": "Learn more",
+      "title": "Learn More About Cybersecurity",
       "color": "#fff"
     }
   ]

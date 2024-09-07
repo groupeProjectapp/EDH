@@ -16,7 +16,6 @@ import {
   Empty,
   FooterContainer,
   Language,
-  Label,
   LanguageSwitch,
   LanguageSwitchContainer,
 } from "./styles";
@@ -56,7 +55,7 @@ const Footer = ({ t }: { t: TFunction }) => {
               <Para>
                 {t(`Do you have any question? Feel free to reach out.`)}
               </Para>
-              <a href="mailto:l.qqbadze@gmail.com">
+              <a href="mailto:ethicalhackingdayz@gmail.com">
                 <Chat>{t(`Let's Chat`)}</Chat>
               </a>
             </Col>
@@ -65,47 +64,29 @@ const Footer = ({ t }: { t: TFunction }) => {
               <Large to="/">{t("Application Security")}</Large>
               <Large to="/">{t("Software Principles")}</Large>
             </Col>
-            <Col lg={6} md={6} sm={12} xs={12}>
-              <Empty />
-              <Large to="/">{t("Support Center")}</Large>
-              <Large to="/">{t("Customer Support")}</Large>
-            </Col>
           </Row>
           <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
               <Empty />
               <Language>{t("Address")}</Language>
-              <Para>Rancho Santa Margarita</Para>
-              <Para>2131 Elk Street</Para>
-              <Para>California</Para>
+              <Para>P4M4+RM3</Para>
+              <Para>Bokhalef</Para>
+              <Para>
+                <a
+                  href="https://www.google.com/maps/place/ENSA+:+%C3%89cole+Nationale+des+Sciences+Appliqu%C3%A9es+de+Tanger/@35.7373121,-5.8943978,15z/data=!4m2!3m1!1s0x0:0x20774c4ac415e78d?sa=X&ved=1t:2428&ictx=111"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "#fff", textDecoration: "underline" }}
+                >
+                  ENSA Tanger Location
+                </a>
+              </Para>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("Company")}</Title>
               <Large to="/">{t("About")}</Large>
-              <Large to="/">{t("Blog")}</Large>
-              <Large to="/">{t("Press")}</Large>
-              <Large to="/">{t("Careers & Culture")}</Large>
-            </Col>
-            <Col lg={6} md={6} sm={12} xs={12}>
-              <Label htmlFor="select-lang">{t("Language")}</Label>
-              <LanguageSwitchContainer>
-                <LanguageSwitch onClick={() => handleChange("en")}>
-                  <SvgIcon
-                    src="united-states.svg"
-                    aria-label="homepage"
-                    width="30px"
-                    height="30px"
-                  />
-                </LanguageSwitch>
-                <LanguageSwitch onClick={() => handleChange("es")}>
-                  <SvgIcon
-                    src="spain.svg"
-                    aria-label="homepage"
-                    width="30px"
-                    height="30px"
-                  />
-                </LanguageSwitch>
-              </LanguageSwitchContainer>
+              <Large to="/events">{t("Events")}</Large>
+              <Large to="/sponsors">{t("Sponsors")}</Large>
             </Col>
           </Row>
         </Container>

@@ -1,15 +1,20 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "Exciting & Engaging Events",
+  "text": "Ethical Hacking Days spans three days filled with diverse and interactive activities designed to enhance your knowledge and test your skills in cybersecurity.",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+      "title": "Day 1: Kick-off & Presentations",
+      "content": "The event begins with a general presentation of our sponsors and collaborators, followed by keynote speeches from industry leaders and representatives of ENSA Tangier.",
       "icon": "notes.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
+      "title": "Day 2: Capture The Flag (CTF)",
+      "content": "Compete in our intense CTF competition, showcasing your technical skills and teamwork in real-world cybersecurity scenarios.",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "Day 3: Workshops & Keynotes",
+      "content": "Join practical workshops on the latest cybersecurity technologies and attend discussions on the future of cybersecurity in Morocco.",
       "icon": "notes.svg"
     }
   ]
